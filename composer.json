@@ -1,0 +1,22 @@
+{
+    "name": "stone\/hmpay-agent",
+    "description": "hmpay agent SDK!",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stone",
+            "email": "15917230970@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "hanson/foundation-sdk": "^5.0",
+      "ext-json": "*",
+      "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stone\\HmpayAgent\\": "src"
+        }
+    }
+}
