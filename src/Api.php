@@ -8,8 +8,8 @@ use Stone\HmpayAgent\Exceptions\HttpException;
 
 class Api extends AbstractAPI
 {
-    private string $appId;
-    private string $privateKey;
+    private $appId;
+    private $privateKey;
 
     const URL = 'https://hmpay.sandpay.com.cn/agent-api/api';
     const UPLOAD_URL = 'https://hmpay.sandpay.com.cn/agent-api/api/upload/pic';

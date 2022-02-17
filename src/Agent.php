@@ -6,7 +6,7 @@ use Hanson\Foundation\Foundation;
 
 class Agent extends Foundation
 {
-    private Merchant $merchant;
+    private $merchant;
 
     public function __construct($config)
     {
