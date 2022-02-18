@@ -1,6 +1,6 @@
 <?php
 
-namespace Stone\HmpayAgent;
+namespace Stone009\HmpayAgent;
 
 use Hanson\Foundation\Foundation;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Stone\HmpayAgent;
+namespace Stone009\HmpayAgent;
 
 use Hanson\Foundation\AbstractAPI;
-use Stone\HmpayAgent\Exceptions\HmpayAgentException;
-use Stone\HmpayAgent\Exceptions\HttpException;
+use Stone009\HmpayAgent\Exceptions\HmpayAgentException;
+use Stone009\HmpayAgent\Exceptions\HttpException;
 
 class Api extends AbstractAPI
 {

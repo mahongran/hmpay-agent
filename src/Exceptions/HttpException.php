@@ -1,6 +1,6 @@
 <?php
 
-namespace Stone\HmpayAgent\Exceptions;
+namespace Stone009\HmpayAgent\Exceptions;
 
 class HttpException extends HmpayAgentException
 {

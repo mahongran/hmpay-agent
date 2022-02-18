@@ -1,8 +1,8 @@
 <?php
 $header = <<<EOF
-This file is part of the stone/hmpay-agent.
+This file is part of the stone009/hmpay-agent.
 
-(c) Stone <15917230970@163.com>
+(c) Stone009 <15917230970@163.com>
 
 This source file is subject to the MIT license that is bundled.
 EOF;

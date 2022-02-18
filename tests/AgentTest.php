@@ -1,6 +1,6 @@
 <?php
 
-namespace Stone\HmpayAgent\Tests;
+namespace Stone009\HmpayAgent\Tests;
 
 use PHPUnit\Framework\TestCase;
 

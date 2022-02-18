@@ -1,9 +1,9 @@
 <?php
 
-namespace Stone\HmpayAgent;
+namespace Stone009\HmpayAgent;
 
-use Stone\HmpayAgent\Exceptions\HttpException;
-use Stone\HmpayAgent\Exceptions\InvalidArgumentException;
+use Stone009\HmpayAgent\Exceptions\HttpException;
+use Stone009\HmpayAgent\Exceptions\InvalidArgumentException;
 
 class Merchant extends Api
 {

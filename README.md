@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require stone/hmpay-agent -vvv
+$ composer require stone009/hmpay-agent -vvv
 ```
 
 ## 配置
@@ -15,7 +15,7 @@ $ composer require stone/hmpay-agent -vvv
 ## 使用
 
 ```php
-use Stone\HmpayAgent\Agent;
+use Stone009\HmpayAgent\Agent;
 
 $config = [
     'app_id' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
