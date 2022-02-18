@@ -1,27 +1,40 @@
-<h1 align="center"> hmpay-agent </h1>
+<h1 align="center"> 河马付 </h1>
 
-<p align="center"> hmpay agent SDK!.</p>
+<p align="center"> 河马付代理商 SDK</p>
 
 
-## Installing
+## 安装
 
 ```shell
 $ composer require stone/hmpay-agent -vvv
 ```
 
-## Usage
+## 配置
+在使用本扩展前，你需要先联系杉德支付开通河马付代理商。
 
-TODO
+## 使用
 
-## Contributing
+```php
+use Stone\HmpayAgent\Agent;
 
-You can contribute in one of three ways:
+$config = [
+    'app_id' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    'private_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    ...
+];
+$agent = new Agent($config);
 
-1. File bug reports using the [issue tracker](https://github.com/stone/hmpay-agent/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/stone/hmpay-agent/issues).
-3. Contribute new features or update the wiki.
+//代理商进件商户
+$params = [
+    'merchant_type' => 'GENERAL_MERCHANT',
+    ...
+];
+$response = $agent->merchant->postData('merchant.create', $params);
+```
 
-_The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
+
+## 参考
+- [河马付接入指南](https://sand.yuque.com/docs/share/f5840d84-08a3-409d-8ab9-854d30562660)
 
 ## License
 
