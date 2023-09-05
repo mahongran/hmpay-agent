@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require stone009/hmpay-agent -vvv
+$ composer require mahongran/hmpay-agent -vvv
 ```
 
 ## 配置
